@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sampler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header_main">
+        <div>
+            <h3>Sampler</h3>
+            <h5>drum pads & instrument keys</h5>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="drums">
+        <header class="header_drums"><p1>Drum Kit</p1></header>
+            <div class ="drumKeys">
+            <div data-key="81" class="drumKey">
+                <kbd>Q</kbd>
+                <span class="sound">snare</span>
+            </div>
+            <div data-key="87" class="drumKey">
+                <kbd>W</kbd>
+                <span class="sound">rim</span>
+            </div>
+            <div data-key="69" class="drumKey">
+                <kbd>E</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="65" class="drumKey">
+                <kbd>A</kbd>
+                <span class="sound">kick</span>
+            </div>
+            <div data-key="83" class="drumKey">
+                <kbd>S</kbd>
+                <span class="sound">tom</span>
+            </div>
+            <div data-key="68" class="drumKey">
+                <kbd>D</kbd>
+                <span class="sound">shaker</span>
+            </div>
+            <div data-key="90" class="drumKey">
+                <kbd>Z</kbd>
+                <span class="sound">hihat closed</span>
+            </div>
+            <div data-key="88" class="drumKey">
+                <kbd>X</kbd>
+                <span class="sound">hihat open</span>
+            </div>
+            <div data-key="67" class="drumKey">
+                <kbd>C</kbd>
+                <span class="sound">cowbell</span>
+            </div>
+        </div>
+    </section>
+
+        <section class="instruments">
+        <header class="header_instr"><p2>Instrument Kit</p2></header>
+        <div class="instrKeys">
+            <div data-key="71" class="instrKey">
+                <kbd>G</kbd>
+                <span class="sound">C5</span>
+            </div>
+            <div data-key="89" class="instrKey">
+                <kbd>Y</kbd>
+                <span class="sound">C#5</span>
+            </div>
+            <div data-key="72" class="instrKey">
+                <kbd>H</kbd>
+                <span class="sound">D5</span>
+            </div>
+            <div data-key="85" class="instrKey">
+                <kbd>U</kbd>
+                <span class="sound">D#5</span>
+            </div>
+            <div data-key="74" class="instrKey">
+                <kbd>J</kbd>
+                <span class="sound">E5</span>
+            </div>
+            <div data-key="75" class="instrKey">
+                <kbd>K</kbd>
+                <span class="sound">F5</span>
+            </div>
+            <div data-key="79" class="instrKey">
+                <kbd>O</kbd>
+                <span class="sound">F#5</span>
+            </div>
+            <div data-key="76" class="instrKey">
+                <kbd>L</kbd>
+                <span class="sound">G5</span>
+            </div>
+            <div data-key="80" class="instrKey">
+                <kbd>P</kbd>
+                <span class="sound">G#5</span>
+            </div>
+            <div data-key="186" class="instrKey">
+                <kbd>;</kbd>
+                <span class="sound">A5</span>
+            </div>
+            <div data-key="186" class="instrKey">
+                <kbd>[</kbd>
+                <span class="sound">A#5</span>
+            </div>
+            <div data-key="222" class="instrKey">
+                <kbd>'</kbd>
+                <span class="sound">B5</span>
+            </div>
+            <div data-key="220" class="instrKey">
+                <kbd>\</kbd>
+                <span class="sound">C6</span>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <audio data-key="81" src="sounds/snare.wav"></audio>
+    <audio data-key="87" src="sounds/rim.wav"></audio>
+    <audio data-key="69" src="sounds/clap.wav"></audio>
+    <audio data-key="65" src="sounds/kick.wav"></audio>
+    <audio data-key="83" src="sounds/tom.wav"></audio>
+    <audio data-key="68" src="sounds/shaker.wav"></audio>
+    <audio data-key="90" src="sounds/hihatClosed.wav"></audio>
+    <audio data-key="88" src="sounds/hihatOpen.wav"></audio>
+    <audio data-key="67" src="sounds/cowbell.wav"></audio>
+
+    <audio data-key="71" src="sounds/pianoC5.wav"></audio>
+    <audio data-key="89" src="sounds/pianoCis5.wav"></audio>
+    <audio data-key="72" src="sounds/pianoD5.wav"></audio>
+    <audio data-key="85" src="sounds/pianoDis5.wav"></audio>
+    <audio data-key="74" src="sounds/pianoE5.wav"></audio>
+    <audio data-key="75" src="sounds/pianoF5.wav"></audio>
+    <audio data-key="79" src="sounds/pianoFis5.wav"></audio>
+    <audio data-key="76" src="sounds/pianoG5.wav"></audio>
+    <audio data-key="80" src="sounds/pianoGis5.wav"></audio>
+    <audio data-key="186" src="sounds/pianoA5.wav"></audio>
+    <audio data-key="219" src="sounds/pianoAis5.wav"></audio>
+    <audio data-key="222" src="sounds/pianoB5.wav"></audio>
+    <audio data-key="220" src="sounds/pianoC6.wav"></audio>
+
+    <footer>Stopka</footer>
+<script src="main.js"></script>
+</body>
+</html>

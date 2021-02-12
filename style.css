@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: teal;
+}
+.header_main {
+    position: relative;
+    height: 15vh;
+    background-color: aqua;
+}
+.header_main div{
+    position: relative;
+    width:100%;
+    text-align: center;
+    top: 15%;
+}
+.header_main h3{
+    text-transform: uppercase;
+}
+.drums{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 400px;
+    font-size: 0.7rem;
+    background-color: lightpink;
+}
+.instruments{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 400px;
+    font-size: 0.7rem;
+    background-color: cornsilk;
+}
+.container {
+    position: relative;
+    font-size: 0;
+}
+.header_drums {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 10vh;
+    background-color:lightgray;
+    height: 10vh;
+
+}
+.header_instr {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 10vh;
+    background-color: lightgray;
+    height: 10vh;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 5vh;
+    width: 100%;
+    background-color: burlywood;
+}
+.drumKeys {
+    display: grid;
+    grid-template-rows: 5em 5em 5em;
+    grid-template-columns: 6em 6em 6em;
+    justify-content: center;
+    text-align: center;
+}
